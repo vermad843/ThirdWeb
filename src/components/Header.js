@@ -21,6 +21,7 @@ function Header() {
               </div>
               <input
                 className='searchInput'
+                placeholder='Collection, item or user ...'
                />
           </div>
       </div>   
