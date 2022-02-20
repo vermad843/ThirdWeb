@@ -38,6 +38,9 @@ function Header() {
                 />
              </div>
           </div>
+          <div className='loginButton'>
+             GET IN
+          </div>
       </div>   
   )
 }
