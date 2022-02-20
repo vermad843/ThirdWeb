@@ -24,6 +24,11 @@ function Header() {
                 placeholder='Collection, item or user ...'
                />
           </div>
+          <div className='headerItems'>
+              <p>Drops</p>
+              <p>Marketplace</p>
+              <p>Create</p>
+          </div>
       </div>   
   )
 }
