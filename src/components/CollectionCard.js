@@ -1,7 +1,6 @@
 import React from 'react';
 import './CollectionCard.css'
 import weth from '../assets/weth.png';
-import './CollectionCard.css';
 
 function CollectionCard({id, name, traits, image}) {
   return (
