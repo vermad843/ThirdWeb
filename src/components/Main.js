@@ -1,4 +1,7 @@
 import React from 'react';
+import instagramLogo from '../assets/owner/instagram.png';
+import twitterLogo from '../assets/owner/twitter.png';
+import moreIcon from '../assets/owner/more.png';
 
 function Main() {
   return (
@@ -17,7 +20,27 @@ function Main() {
           style = {{color : '#fff'}}  
           >
           <div className='title'>Bandana Punk</div>
-          <span className='itemNumber'></span>
+          <span className='itemNumber'>.#3</span>
+        </div>
+        <div className='owner'>
+            <div className='ownerImageConatiner'>
+               <img src = {'https://i.ytimg.com/vi/4RTte4RA1Sg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOdlLEgQtra4DmRSoMZCCCN8mKmw'} alt = ''/>
+            </div>
+            <div className='ownerDetails'>
+                <div className='ownerNameAndHandle'>
+                   <div>0*64646747773</div>
+                   <div className='ownerHandle'>@vermad843</div>
+                </div>
+                <div className='ownerLink'>
+                   <img src = {instagramLogo} alt = ''/>
+                </div>
+                <div className='ownerLink'>
+                   <img src = {twitterLogo} alt = ''/>
+                </div>
+                <div className='ownerLink'>
+                   <img src = {moreIcon} alt = ''/>
+                </div>
+            </div>
         </div>
     </div>
   )
