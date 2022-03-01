@@ -44,11 +44,11 @@ function Main() {
                 </div>
                 <div className='ownerLink'>
                    <img src = {moreIcon} alt = ''/>
-                </div>
+               </div>
+            </div>
             </div>
          </div>
-       </div>
-    </div>
+      </div>
   )
 }
 
